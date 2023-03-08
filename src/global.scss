@@ -1,0 +1,28 @@
+:root {
+  --font_text--font_size--regular: 16px;
+  --font_text--line_height--regular: 20px;
+  --font_text--font_weight--regular: 400;
+  --font_text--font_family--regular: -apple-system, system-ui, 'Helvetica Neue', Roboto, sans-serif;
+
+  --font_weight_accent1: 600;
+  --font_weight_accent2: 500;
+  --font_weight_accent3: 400;
+
+  --color_background: #f5f6f8;
+  --color_background_content: #ffffff;
+
+  --button_color_background: #1a1a1a;
+  --button_color_background_content: #ffffff;
+}
+
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color_background);
+}
